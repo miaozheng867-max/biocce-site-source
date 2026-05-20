@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News - BIOCCE | Industrial Equipment Solutions</title>
+<!-- Open Graph / Social -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BIOCCE">
+<meta property="og:url" content="https://www.biocce.com/news.html">
+<meta property="og:title" content="BIOCCE News | Industrial Cleaning Tips & Equipment Guides">
+<meta property="og:description" content="Read the latest articles about industrial floor cleaning, equipment maintenance, and application guides from BIOCCE.">
+<meta property="og:image" content="https://www.biocce.com/images/hero-bg-trimmed.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="BIOCCE News | Industrial Cleaning Tips & Equipment Guides">
+<meta name="twitter:description" content="Read the latest articles about industrial floor cleaning, equipment maintenance, and application guides from BIOCCE.">
+<meta name="twitter:image" content="https://www.biocce.com/images/hero-bg-trimmed.png">
+    <meta name="google-site-verification" content="5ifk2LDXq8DkDsnkleJ37hU1V19t2pzN2OCx55eUhGY" />
+    <meta property="og:title" content="News & Updates">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.biocce.com/news.html">
+    <meta property="og:site_name" content="BIOCCE">
+    <meta name="description" content="BIOCCE company news, product releases and industry updates.">
+    <link rel="canonical" href="https://www.biocce.com/news.html">
+    <link rel="alternate" hreflang="en" href="https://www.biocce.com/news.html">
+    <link rel="dns-prefetch" href="https://images.unsplash.com">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="stylesheet" href="/css/style.min.css?v=1">
+    <style>
+        .news-list { display: flex; flex-direction: column; gap: 24px; }
+        .news-card { display: flex; gap: 24px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; transition: box-shadow .25s; }
+        .news-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,.08); }
+        .news-card-image { width: 240px; min-height: 180px; flex-shrink: 0; overflow: hidden; background: #f0f0f0; display: flex; align-items: center; justify-content: center; }
+        .news-card-image img { width: 100%; height: 100%; object-fit: cover; }
+        .news-card-body { padding: 20px 20px 20px 0; display: flex; flex-direction: column; }
+        .news-card-category { font-size: .75rem; color: var(--accent); font-weight: 600; text-transform: uppercase; letter-spacing: .5px; margin-bottom: 4px; }
+        .news-card-title { font-size: 1.1rem; font-weight: 600; margin: 0 0 6px; color: var(--primary); }
+        .news-card-date { font-size: .78rem; color: var(--text-gray); margin-bottom: 8px; }
+        .news-card-summary { font-size: .85rem; color: var(--text); line-height: 1.5; flex: 1; }
+        .news-card-link { font-size: .85rem; color: var(--accent); font-weight: 600; text-decoration: none; margin-top: 10px; }
+        .news-card-link:hover { text-decoration: underline; }
+        .article-wrap { max-width: 800px; margin: 0 auto; }
+        .article-header { margin-bottom: 30px; }
+        .article-header h1 { font-size: 1.8rem; margin: 0 0 8px; color: var(--primary); }
+        .article-meta { font-size: .85rem; color: var(--text-gray); margin-bottom: 6px; }
+        .article-body { font-size: .95rem; line-height: 1.8; color: var(--text); }
+        .article-body h3 { font-size: 1.15rem; margin: 28px 0 12px; color: var(--primary); }
+        .article-body ul { padding-left: 20px; }
+        .article-body ul li { margin-bottom: 6px; }
+        .article-body a { color: var(--accent); }
+        .btn-back { display: inline-block; margin-bottom: 24px; }
+
+        /* Pagination */
+        .pagination { display: flex; justify-content: center; gap: 8px; margin-top: 32px; }
+        .page-num, .page-num:visited { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 6px; background: var(--bg-card); border: 1px solid var(--border); color: var(--text); font-size: .88rem; font-weight: 600; text-decoration: none; transition: background .2s; }
+        .page-num:hover { background: var(--bg-light); }
+        .page-num.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+        @media (max-width: 680px) {
+            .news-card { flex-direction: column; }
+            .news-card-image { width: 100%; height: 200px; }
+            .news-card-body { padding: 16px; }
+        }
+    </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "BIOCCE",
+  "alternateName": "Biocce Supply Chain (Shanghai) Co., Ltd.",
+  "url": "https://www.biocce.com/",
+  "logo": "https://www.biocce.com/favicon.ico",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+86-21-51078500",
+    "contactType": "sales",
+    "email": "michael@biocce.com"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Shanghai",
+    "addressCountry": "CN"
+  }
+}
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RGEL35HFSP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [
+        // New: Floor scrubber application articles
+        {"id":"factory-production-workshop-cleaning","title":"How Floor Scrubbers Keep Factory Production Workshops Clean and Safe","date":"2026-05-14","category":"Application","summary":"Production workshops face unique cleaning challenges — oil spills, metal shavings, and fine dust. Discover how ride-on scrubbers like the BIOCCE BC1250 transform factory floor maintenance.","image":"/images/products/bc1250-main.png","content":"<p>Factory production workshops are the heart of any manufacturing operation. But they're also where the toughest floor cleaning challenges live — coolant spills, metal shavings, hydraulic oil leaks, and fine particulate dust from grinding and cutting processes.</p>\n<p>A clean production floor isn't just about appearance. It directly affects worker safety, product quality, and equipment longevity. Yet many factories still rely on manual mopping, which is slow, inconsistent, and often ineffective against industrial grime.</p>\n<h2>The Production Workshop Cleaning Challenge</h2>\n<p>Production floors typically cover 5,000 to 50,000 square meters with varying conditions:</p>\n<ul>\n<li><strong>Oil and coolant spills</strong> — Slippery surfaces create immediate safety hazards</li>\n<li><strong>Metal shavings and debris</strong> — Can damage forklift tires and cause accidents</li>\n<li><strong>Fine dust</strong> — Affects air quality and can contaminate sensitive products</li>\n<li><strong>High traffic density</strong> — Forklifts, workers, and AGVs move constantly</li>\n</ul>\n<h2>Why Industrial Scrubbers Outperform Manual Cleaning</h2>\n<p>A ride-on floor scrubber like the BIOCCE BC1250 cleans up to 8,000 m&sup2; per hour — approximately 15 times faster than a crew with mops and buckets. More importantly, it delivers consistent results every pass.</p>\n<p>The BC1250's dual-disc scrubbing system applies controlled pressure and solution, while the powerful vacuum system recovers dirty water immediately, leaving floors dry and safe to walk on within seconds. For factories with strict hygiene requirements, optional antimicrobial brush options are available.</p>\n<h2>Real Results from Production Facilities</h2>\n<p>One automotive parts manufacturer replaced their night crew of 6 moppers with a single BC1250 operator. The result: cleaning time reduced from 4 hours to 45 minutes, with visibly cleaner floors and zero slip-related incidents over 18 months.</p>\n<p><a href=\"/contact.html\">Contact BIOCCE</a> for a free facility assessment and scrubber recommendation.</p>"},
+        {"id":"five-star-hotel-floor-cleaning","title":"Maintaining Five-Star Standards: Floor Care in Luxury Hotels","date":"2026-05-15","category":"Application","summary":"In luxury hotels, floor cleanliness is part of the guest experience. Learn how professional scrubbers help housekeeping teams maintain impeccable standards across lobbies, corridors, and banquet halls.","image":"/images/products/bc600-main.png","content":"<p>In a five-star hotel, your guests notice everything. The shine on the marble lobby floor. The cleanliness of the corridor carpets. The spotless condition of the restaurant tiles. Floor maintenance isn't just a housekeeping task — it's a brand statement.</p>\n<h2>Unique Challenges in Hospitality Floor Care</h2>\n<p>Hotels present a complex cleaning environment with multiple floor types and high expectations:</p>\n<ul>\n<li><strong>Marble and stone floors</strong> in lobbies require gentle but effective cleaning to maintain their polish without etching the surface</li>\n<li><strong>Hardwood and engineered wood</strong> in corridors need careful moisture control</li>\n<li><strong>Ceramic and porcelain tiles</strong> in restaurants and kitchens face grease and food spills</li>\n<li><strong>24/7 operations</strong> mean cleaning must happen around guest traffic, often overnight</li>\n</ul>\n<h2>The BIOCCE Solution for Hotels</h2>\n<p>The BIOCCE BC600 walk-behind scrubber is a favorite among hotel housekeeping teams. Its compact design navigates easily through lobby furniture and narrow service corridors, while the quiet operation (under 65 dB) means cleaning can happen during daytime without disturbing guests.</p>\n<p>For larger venues like convention centers and ballrooms, the ride-on BC1000 covers up to 5,000 m&sup2; per hour with a single pass. The adjustable brush pressure system allows operators to switch between gentle marble care and heavy-duty tile scrubbing in seconds.</p>\n<h2>Case Study: Shanghai Marriott Hotel</h2>\n<p>The Shanghai Marriott Hotel adopted two BC600 scrubbers for their daily housekeeping routine. Within three months, guest satisfaction scores related to cleanliness improved by 12%, and the housekeeping team reported 40% less time spent on floor care.</p>\n<p><a href=\"/contact.html\">Contact us</a> for a customized hotel cleaning solution.</p>"},
+        {"id":"airport-floor-cleaning-solutions","title":"Cleaning the Runway: Industrial Scrubbers for Airport Terminals","date":"2026-05-16","category":"Application","summary":"Airports require non-stop, high-quality floor cleaning across vast terminal spaces. Discover how BIOCCE scrubbers help airports maintain pristine floors under extreme traffic conditions.","image":"/images/products/bc1000-main.png","content":"<p>Airport terminals are among the most demanding floor cleaning environments in the world. With millions of passengers passing through annually, 24/7 operations, and an uncompromising expectation of cleanliness, airports need floor care equipment that performs at the highest level.</p>\n<h2>The Scale of the Airport Challenge</h2>\n<p>A medium-sized international airport like Shanghai Pudong covers over 800,000 m&sup2; of floor space across terminals, concourses, and connection areas. Each zone has different requirements:</p>\n<ul>\n<li><strong>Check-in halls</strong> — High-traffic areas with baggage cart scuffs and dirt from outdoors</li>\n<li><strong>Security screening areas</strong> — Constant queue traffic, spills from passengers</li>\n<li><strong>Gate lounges</strong> — Food and beverage spills, high dwell-time traffic</li>\n<li><strong>Corridors and walkways</strong> — Continuous foot traffic requiring quick, safe cleaning</li>\n</ul>\n<h2>Why Airports Choose BIOCCE Scrubbers</h2>\n<p>The BIOCCE BC1250 ride-on scrubber is the workhorse for large terminal spaces. With a 1250 mm cleaning width and 150-liter solution tank, it can clean for extended periods without refilling. The lithium battery option enables opportunity charging during shift changes, keeping the machine available around the clock.</p>\n<p>For tighter spaces like gate areas and escalator approaches, the BC600 provides nimble maneuverability while maintaining professional cleaning quality.</p>\n<h2>Safety First</h2>\n<p>Airports require cleaning that doesn't create slip hazards. BIOCCE scrubbers feature advanced water recovery systems that leave floors 95% dry within seconds, meeting the strictest safety standards for public spaces.</p>\n<p><a href=\"/contact.html\">Contact BIOCCE</a> for a terminal cleaning consultation.</p>"},
+        {"id":"food-processing-plant-cleaning","title":"Hygiene First: Floor Cleaning for Food Processing Plants","date":"2026-05-17","category":"Application","summary":"Food processing facilities require the highest standards of floor hygiene. See how BIOCCE industrial scrubbers help meet HACCP and FDA requirements while improving cleaning efficiency.","image":"/images/products/bc500-main.jpg","content":"<p>In food processing plants, floor cleanliness is directly linked to food safety. Grease, organic residue, and bacterial growth on floors can lead to contamination risks that affect product quality and consumer health. Meeting HACCP, FDA, and local food safety standards demands floor cleaning equipment that can deliver consistent, verifiable results.</p>\n<h2>Food Plant Floor Cleaning Demands</h2>\n<p>Food processing environments present some of the toughest cleaning challenges:</p>\n<ul>\n<li><strong>Grease and oil residues</strong> from cooking and processing equipment</li>\n<li><strong>Organic matter</strong> including food particles, sugars, and proteins</li>\n<li><strong>High humidity</strong> that accelerates bacterial growth on floors</li>\n<li><strong>Frequent washdowns</strong> requiring equipment that handles wet conditions</li>\n<li><strong>Drainage considerations</strong> — floors must be cleaned without clogging drainage systems</li>\n</ul>\n<h2>The BIOCCE Solution for Food Safety</h2>\n<p>BIOCCE offers scrubbers specifically configured for food processing environments. Features include:</p>\n<ul>\n<li><strong>Stainless steel tanks</strong> for easy sanitation and corrosion resistance</li>\n<li><strong>Antimicrobial brush options</strong> that reduce bacterial growth on equipment surfaces</li>\n<li><strong>High-temperature tolerance</strong> for use with hot water cleaning solutions</li>\n<li><strong>Efficient water recovery</strong> to prevent standing water where bacteria can grow</li>\n</ul>\n<h2>Real Impact: Bakery Production Facility</h2>\n<p>A Shanghai-based bakery producing 50,000 loaves daily switched from manual cleaning to a BIOCCE BC500 with antimicrobial brushes. Floor bacteria counts dropped by 78% in the first month, and the cleaning crew was reduced from 4 to 1 operator per shift.</p>\n<p><a href=\"/contact.html\">Contact BIOCCE</a> to discuss your food safety floor cleaning needs.</p>"},
+        {"id":"shopping-mall-floor-maintenance","title":"Clean Floors, Happy Shoppers: Floor Maintenance in Large Shopping Malls","date":"2026-05-18","category":"Application","summary":"Shopping malls face unique floor cleaning challenges with mixed floor types and high visitor traffic. Learn how BIOCCE scrubbers help mall management maintain beautiful, safe floors cost-effectively.","image":"/images/products/bc600-side.jpg","content":"<p>Shopping malls are city landmarks where thousands of visitors gather daily. The condition of the floors — from polished stone entrances to tiled food court areas — directly shapes the shopper experience and reflects the mall's brand positioning.</p>\n<h2>The Multi-Surface Mall Challenge</h2>\n<p>Modern shopping malls combine multiple floor materials across different zones:</p>\n<ul>\n<li><strong>Polished granite and marble</strong> in main atriums and entrances</li>\n<li><strong>Ceramic tiles</strong> in corridors and retail areas</li>\n<li><strong>Specialized flooring</strong> in food courts (non-slip, grease-resistant)</li>\n<li><strong>Epoxy or sealed concrete</strong> in service areas and parking garages</li>\n</ul>\n<p>Each surface requires different cleaning approaches, chemical choices, and brush types. Using the wrong technique can damage expensive flooring — a risk no mall manager wants to take.</p>\n<h2>Versatility with BIOCCE Equipment</h2>\n<p>The BIOCCE BC1000 ride-on scrubber offers adjustable brush pressure and interchangeable brush types, making it suitable for all common mall floor surfaces. Operators can switch from gentle polishing of marble to deep scrubbing of food court tiles in minutes.</p>\n<p>The BC600, with its compact size and quiet operation, excels during mall opening hours for spot cleaning and touch-ups, while the larger BC1250 handles overnight deep cleaning of main corridors and atriums.</p>\n<h2>Cost-Effective Mall Maintenance</h2>\n<p>A large shopping mall covering 200,000 m&sup2; can reduce annual floor maintenance costs by up to 60% by switching from contract manual cleaning to in-house BIOCCE equipment. One mall in Shanghai reported a return on investment within 8 months after replacing outsourced cleaning with two BC1250 scrubbers.</p>\n<p><a href=\"/contact.html\">Contact us</a> for a mall floor maintenance assessment.</p>"},];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RGEL35HFSP');
+</script>
+
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="logo">
+                <div class="logo-icon">BC</div>
+                <div class="logo-text">
+                    <div class="logo-main">BIO<span class="accent">CCE</span></div>
+                    <div class="logo-sub">Industrial Equipment Solutions</div>
+                </div>
+            </a>
+            <div class="header-actions">
+                <nav class="nav">
+                    <a href="/">Home</a>
+                    <a href="/products/clean-equipment/">Products</a>
+                    <a href="/about.html">About Us</a>
+                    <a href="/news.html" class="active">News</a>
+                    <a href="/contact.html">Contact</a>
+                </nav>
+                  <div id="search-results"></div>
+                </div>
+                <button class="nav-toggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section id="news-list-view">
+        <section class="page-header">
+            <div class="container">
+                <h1>News &amp; Updates</h1>
+                <p>BIOCCE company news, product releases and industry updates</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="news-list" id="news-list-container">
+                    
+                    <div class="news-card">
+                        <div class="news-card-image">
+                            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&q=80" alt="Keeping Warehouses Clean: How Industrial Scrubbers Improve Logistics Operations" loading="lazy">
+                        </div>
+                        <div class="news-card-body">
+                            <div class="news-card-category">Application</div>
+                            <h3 class="news-card-title">Keeping Warehouses Clean: How Industrial Scrubbers Improve Logistics Operations</h3>
+                            <div class="news-card-date">2026-05-09</div>
+                            <p class="news-card-summary">In large warehouses, floor cleanliness directly impacts safety, productivity, and inventory accuracy. Modern ride-on scrubbers are transforming warehouse maintenance.</p>
+                            <a href="/news.html?id=warehouse-cleaning-solutions" class="news-card-link">Read More &rarr;</a>
+                        </div>
+                    </div>
+                    
+                    <div class="news-card">
+                        <div class="news-card-image">
+                            <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600&q=80" alt="Manufacturing Floor Care: Extending Equipment Life Through Proper Cleaning" loading="lazy">
+                        </div>
+                        <div class="news-card-body">
+                            <div class="news-card-category">Application</div>
+                            <h3 class="news-card-title">Manufacturing Floor Care: Extending Equipment Life Through Proper Cleaning</h3>
+                            <div class="news-card-date">2026-05-10</div>
+                            <p class="news-card-summary">Manufacturing environments generate metal shavings, coolant spills, and fine dust that damage machinery and create safety risks.</p>
+                            <a href="/news.html?id=manufacturing-floor-cleaning" class="news-card-link">Read More &rarr;</a>
+                        </div>
+                    </div>
+                    
+                    <div class="news-card">
+                        <div class="news-card-image">
+                            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&q=80" alt="Retail and Supermarket Cleaning: Creating a Better Shopping Experience" loading="lazy">
+                        </div>
+                        <div class="news-card-body">
+                            <div class="news-card-category">Application</div>
+                            <h3 class="news-card-title">Retail and Supermarket Cleaning: Creating a Better Shopping Experience</h3>
+                            <div class="news-card-date">2026-05-11</div>
+                            <p class="news-card-summary">For retailers, floor cleanliness directly influences customer perception and dwell time. Clean floors mean more sales and better brand image.</p>
+                            <a href="/news.html?id=supermarket-retail-cleaning" class="news-card-link">Read More &rarr;</a>
+                        </div>
+                    </div>
+                    
+                    <div class="news-card">
+                        <div class="news-card-image">
+                            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&q=80" alt="Hospitality and Hotel Floor Maintenance: Meeting Guest Expectations" loading="lazy">
+                        </div>
+                        <div class="news-card-body">
+                            <div class="news-card-category">Application</div>
+                            <h3 class="news-card-title">Hospitality and Hotel Floor Maintenance: Meeting Guest Expectations</h3>
+                            <div class="news-card-date">2026-05-12</div>
+                            <p class="news-card-summary">In hotels, resorts, and hospitality venues, floor cleanliness is non-negotiable. Learn how professional cleaning equipment helps maintain five-star standards efficiently.</p>
+                            <a href="/news.html?id=hospitality-cleaning-standards" class="news-card-link">Read More &rarr;</a>
+                        </div>
+                    </div>
+                    
+                    <div class="news-card">
+                        <div class="news-card-image">
+                            <img src="https://images.unsplash.com/photo-1580674285054-bed31e145f59?w=600&q=80" alt="Logistics Hubs and Distribution Centers: Cleaning for Peak Efficiency" loading="lazy">
+                        </div>
+                        <div class="news-card-body">
+                            <div class="news-card-category">Application</div>
+                            <h3 class="news-card-title">Logistics Hubs and Distribution Centers: Cleaning for Peak Efficiency</h3>
+                            <div class="news-card-date">2026-05-13</div>
+                            <p class="news-card-summary">High-throughput logistics hubs demand fast, reliable floor cleaning that keeps pace with 24/7 operations.</p>
+                            <a href="/news.html?id=logistics-hub-cleaning" class="news-card-link">Read More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="pagination-container">
+                    
+                    <div class="pagination">
+                        <span class="page-num active">1</span>
+                        <a href="/news.html?page=2" class="page-num">2</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id="news-article-view" style="display:none;">
+        <section class="section">
+            <div class="container">
+                <div class="article-wrap" id="article-content">
+                    <a href="/news.html" class="btn btn-back">&larr; Back to News</a>
+                </div>
+            </div>
+        </section>
+    </section>
+
+        <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>BIOCCE</h4>
+                    <p>Your reliable partner in industrial equipment solutions.<br>Biocce Supply Chain (Shanghai) Co., Ltd.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Products</h4>
+                    <a href="/products/clean-equipment/">Cleaning Equipment</a>
+                    <a href="/products/material-handling/">Material Handling</a>
+                    <a href="/products/lifting-equipment/">Lifting Equipment</a>
+                    <a href="/products/garden-equipment/">Garden Equipment</a>
+                    <a href="/products/aerial-equipment/">Aerial Equipment</a>
+                    <a href="/products/other-industrial/">Other Industrial</a>
+                </div>
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <a href="/about.html">About Us</a>
+                    <a href="/news.html">News</a>
+                    <a href="/contact.html">Contact</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>📍 Shanghai, China</p>
+                    <p>📧 <a href="mailto:michael@biocce.com">michael@biocce.com</a></p>
+                    <p>📞 +86 21 5107 8500</p>
+                    <p>💬 WhatsApp: +86 18621559605</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 BIOCCE (拜茨). <span>All rights reserved.</span> | <span>Biocce Supply Chain (Shanghai) Co., Ltd.</span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/site.min.js?v=1" defer></script>
+    <script>
+        // Article data with full content (rendered server-side for single article view)
+        const ALL_ARTICLES = [{"id":"warehouse-cleaning-solutions","title":"Keeping Warehouses Clean: How Industrial Scrubbers Improve Logistics Operations","date":"2026-05-09","category":"Application","summary":"In large warehouses, floor cleanliness directly impacts safety, productivity, and inventory accuracy. Modern ride-on scrubbers are transforming warehouse maintenance.","image":"https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&q=80","content":"<p>Warehouse floors take a beating. Forklifts, pallet jacks, and foot traffic leave dirt, dust, and spills that accumulate quickly. A clean floor isn't just about appearance 鈥?it affects everything from worker safety to equipment lifespan.</p>\n    <h3>The Safety Case</h3>\n    <p>Dust and debris on warehouse floors create slip hazards and can cause forklift tires to lose traction. In wet or oily environments, the risk multiplies. Regular scrubbing with an industrial machine removes contaminants before they become hazards, reducing workplace injury claims.</p>\n    <h3>Productivity Impact</h3>\n    <p>Clean floors mean smoother movement for material handling equipment. Forklifts and pallet trucks operate more efficiently on clean, dry surfaces. One logistics manager reported a 12% improvement in order picking speed after switching from manual mopping to ride-on scrubber cleaning.</p>\n    <h3>Recommended Equipment</h3>\n    <p>For warehouses under 10,000 m&sup2;, the BIOCCE BC600 ride-on scrubber offers the perfect balance of maneuverability and productivity. Its compact turning radius navigates narrow aisles, while the 100Ah lithium battery handles a full shift on a single charge.</p>\n    <p>For larger distribution centers, the BC1000 or BC1250 with dual brush decks double the cleaning speed, keeping pace with high-traffic operations.</p>\n    <p><a href=\"/contact.html\">Contact our team</a> to discuss a tailored cleaning solution for your warehouse.</p>"},{"id":"manufacturing-floor-cleaning","title":"Manufacturing Floor Care: Extending Equipment Life Through Proper Cleaning","date":"2026-05-10","category":"Application","summary":"Manufacturing environments generate metal shavings, coolant spills, and fine dust that damage machinery and create safety risks. Learn how proper cleaning protects your investment.","image":"https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600&q=80","content":"<p>In manufacturing facilities, the floor isn't just a surface 鈥?it's a critical part of the operational ecosystem. Grinding dust, metal filings, cutting fluid spills, and packaging debris all end up on the floor, and what stays there doesn't stay put.</p>\n    <h3>Why Manufacturing Floors Need Specialized Cleaning</h3>\n    <p>Fine metal particles are abrasive. When tracked across the facility by boots and wheels, they accelerate wear on forklift tires, damage sealed floors, and can even find their way into sensitive machinery. Coolant and oil spills create slip hazards that rival ice in their danger.</p>\n    <h3>The Solution: Heavy-Duty Scrubbers</h3>\n    <p>Industrial scrubbers with aggressive brush action and powerful vacuum recovery are essential. The BIOCCE BC1250 features dual 1066mm brushes that can handle heavy soil loads, while the 150Ah lithium battery provides extended runtime for multi-shift operations.</p>\n    <h3>Integrating Cleaning Into Production Cycles</h3>\n    <p>Smart facilities schedule floor cleaning during shift changes or planned downtime. With lithium battery technology, the scrubber can be opportunity-charged during breaks, ensuring it's always ready when needed.</p>\n    <p>For manufacturing facilities, we recommend a comprehensive floor care plan. <a href=\"/contact.html\">Contact us</a> for a free facility assessment.</p>"},{"id":"supermarket-retail-cleaning","title":"Retail and Supermarket Cleaning: Creating a Better Shopping Experience","date":"2026-05-11","category":"Application","summary":"For retailers, floor cleanliness directly influences customer perception and dwell time. Clean floors mean more sales and better brand image.","image":"https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&q=80","content":"<p>In retail environments, the floor is arguably the most visible surface. Customers notice dirty floors immediately 鈥?and subconsciously associate them with poor hygiene and lower product quality. Clean floors, on the other hand, encourage browsing and increase dwell time.</p>\n    <h3>The Retail Challenge</h3>\n    <p>Supermarkets face unique cleaning challenges: constant foot traffic, spillages in every aisle, entrance grime from outdoors, and the need to clean without disrupting customers. Traditional mopping leaves floors wet for too long, creating slip hazards and forcing aisle closures.</p>\n    <h3>How Ride-On Scrubbers Solve It</h3>\n    <p>Modern ride-on scrubbers like the BIOCCE BC600 clean and dry in a single pass. The built-in squeegee system recovers virtually all water, leaving floors dry enough to walk on within seconds. Cleaning a 5,000 m&sup2; supermarket that used to take 4 hours with mops now takes under 1 hour.</p>\n    <h3>Operating Hours Flexibility</h3>\n    <p>With quiet electric motors and zero emissions, these machines can operate during business hours with minimal disruption. Many retailers schedule floor cleaning during slower periods 鈥?early morning, late evening, or overnight 鈥?maximizing the use of a single machine across multiple shifts.</p>\n    <p>Looking to upgrade your retail cleaning operation? <a href=\"/contact.html\">Contact us</a> for a walkthrough and ROI analysis.</p>"},{"id":"hospitality-cleaning-standards","title":"Hospitality and Hotel Floor Maintenance: Meeting Guest Expectations","date":"2026-05-12","category":"Application","summary":"In hotels, resorts, and hospitality venues, floor cleanliness is non-negotiable. Learn how professional cleaning equipment helps maintain five-star standards efficiently.","image":"https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&q=80","content":"<p>The hospitality industry operates on reputation. A single negative review about cleanliness can cost thousands in lost bookings. Floor maintenance plays a surprisingly large role 鈥?studies show that floor appearance is one of the top three factors guests use to judge a hotel's cleanliness.</p>\n    <h3>Beyond the Lobby</h3>\n    <p>While the lobby floor gets the most attention, hospitality venues need consistent cleaning across banquet halls, conference rooms, restaurant dining areas, corridors, and back-of-house spaces. Each area has different flooring 鈥?marble, tile, carpet, sealed concrete 鈥?requiring different approaches.</p>\n    <h3>Efficiency Without Compromise</h3>\n    <p>Walk-behind scrubbers like the BC500 offer the precision needed for tighter spaces, while ride-on models handle large banquet halls and convention spaces in a fraction of the time. The ability to switch between brush types allows the same machine to handle polished marble in the lobby and textured tile in the kitchen.</p>\n    <h3>24/7 Operations</h3>\n    <p>Hotels never close. Lithium battery technology enables flexible charging schedules 鈥?the scrubber can be used during a morning corridor cleanup, charged during the afternoon, and deployed again for evening banquet hall preparation.</p>\n    <p>For hospitality operations of any scale, <a href=\"/contact.html\">contact us</a> to discuss the right cleaning equipment configuration.</p>"},{"id":"logistics-hub-cleaning","title":"Logistics Hubs and Distribution Centers: Cleaning for Peak Efficiency","date":"2026-05-13","category":"Application","summary":"High-throughput logistics hubs demand fast, reliable floor cleaning that keeps pace with 24/7 operations. Discover how industrial scrubbers meet this challenge.","image":"https://images.unsplash.com/photo-1580674285054-bed31e145f59?w=600&q=80","content":"<p>Modern logistics hubs operate around the clock. With conveyor systems, automated guided vehicles (AGVs), and workers moving at pace, there's no \"quiet time\" for cleaning. Floor maintenance must happen in the gaps 鈥?during shift changes, in defined zones, or as part of a rotating schedule.</p>\n    <h3>The Logistics Environment</h3>\n    <p>Logistics floors accumulate a distinct mix of contaminants: cardboard dust from packaging, tire marks from thousands of daily forklift movements, water from trucks entering and exiting, and general debris from inbound goods. Left unchecked, this buildup interferes with AGV guidance systems and creates uneven wear on equipment wheels.</p>\n    <h3>Matching Machine to Mission</h3>\n    <p>The BIOCCE BC1250 is ideal for large logistics hubs. With a 6,600 m&sup2;/h cleaning capacity, it can cover 50,000 m&sup2; in a single shift. The 150Ah lithium battery eliminates battery swap downtime 鈥?a quick charge during lunch is enough to finish the shift.</p>\n    <h3>Zone-Based Cleaning Strategy</h3>\n    <p>Many logistics operators divide their facility into cleaning zones. High-traffic areas near docks and dispatch get daily scrubbing, while lower-traffic storage zones are cleaned on rotation. This approach maximizes cleaning efficiency without interrupting operations.</p>\n    <p>Ready to optimize your logistics floor cleaning? <a href=\"/contact.html\">Contact us</a> for a customized cleaning plan tailored to your facility layout.</p>"},{"id":"ride-on-vs-walk-behind","title":"Ride-On vs Walk-Behind Floor Scrubbers: Which Is Right for Your Facility?","date":"2026-05-08","category":"Industry Guide","summary":"Choosing between a ride-on and walk-behind floor scrubber depends on your facility size, layout, and cleaning frequency.","image":"/images/products/bc600-main.png","content":"<p>When investing in industrial cleaning equipment, one of the most common questions facility managers face is whether to choose a ride-on or walk-behind floor scrubber. Both types effectively clean hard floors, but each serves different operational needs.</p><h3>Walk-Behind Scrubbers: Best for Compact Spaces</h3><p>Walk-behind scrubbers like the BIOCCE BC500 are ideal for facilities under 10,000 m&sup2;. Their compact design allows operators to maneuver through tight aisles, doorways, and around shelving units with ease. Key advantages include:</p><ul><li>Lower upfront investment</li><li>Lightweight and easy to transport between floors</li><li>Simple operation with minimal training required</li><li>Ideal for supermarkets, small warehouses, and retail spaces</li></ul><h3>Ride-On Scrubbers: Built for Large-Scale Operations</h3><p>For facilities exceeding 10,000 m&sup2;, ride-on scrubbers dramatically improve productivity. The BIOCCE BC600, BC1000, and BC1250 models offer cleaning capacities from 3,360 to 6,600 m&sup2;/h. Benefits include:</p><ul><li>Operator comfort reduces fatigue during extended shifts</li><li>Higher productivity 鈥?one operator cleans more in less time</li><li>Larger tank capacities mean fewer refill stops</li><li>Lithium battery options for all-day operation</li></ul><h3>Battery Technology Matters</h3><p>Modern lithium-ion batteries, standard on all BIOCCE ride-on models, offer longer runtime, faster charging, and zero maintenance compared to traditional lead-acid batteries.</p><h3>Making the Choice</h3><p>Consider your facility's square footage, layout complexity, and daily cleaning hours. <a href=\"/contact.html\">Contact our team</a> for a personalized recommendation.</p>"},{"id":"lithium-scrubber-maintenance","title":"5 Essential Maintenance Tips for Lithium-Powered Floor Scrubbers","date":"2026-05-07","category":"Product Care","summary":"Lithium battery technology has revolutionized industrial cleaning, but proper maintenance is key to maximizing your scrubber lifespan and performance.","image":"/images/products/bc600-angle.png","content":"<p>BIOCCE ride-on floor scrubbers come equipped with high-performance lithium-ion batteries. Unlike traditional lead-acid batteries, lithium batteries require different care to deliver optimal lifespan and performance.</p><h3>1. Charge Smart, Not Hard</h3><p>Lithium batteries perform best when kept between 20% and 80% charge for daily use. Partial charges are perfectly fine and actually extend battery life.</p><h3>2. Store at the Right Temperature</h3><p>Extreme temperatures degrade lithium battery performance. Store your scrubber between 10掳C and 30掳C.</p><h3>3. Keep Contacts Clean</h3><p>Battery terminals and charging contacts must remain clean and dry. Wipe them with a dry cloth after each charging cycle.</p><h3>4. Monitor Water and Tank Levels</h3><p>While the battery itself requires no water, the scrubber's solution and recovery tanks need regular attention.</p><h3>5. Follow the Daily Checklist</h3><p>A simple 5-minute daily inspection extends equipment life: check brush wear, inspect squeegee blades, clean debris, verify water levels, check the charging cable.</p><p><a href=\"/contact.html\">Contact us</a> for a maintenance schedule template.</p>"},{"id":"industrial-cleaning-efficiency","title":"How Modern Industrial Cleaning Equipment Reduces Operating Costs","date":"2026-05-06","category":"Industry Insights","summary":"Advanced floor scrubbers with lithium batteries and efficient motors can cut cleaning costs by up to 40% while improving cleanliness standards.","image":"/images/products/bc1000-main.png","content":"<p>In today's competitive industrial landscape, every operational expense matters. Floor cleaning might seem like a minor line item, but inefficient cleaning processes can quietly drain budgets.</p><h3>The True Cost of Manual Cleaning</h3><p>A single worker with a mop and bucket can clean roughly 500 m&sup2;/h. Compare that to a ride-on scrubber like the BIOCCE BC1250, which cleans 6,600 m&sup2;/h. The labor cost savings alone often justify the investment within months.</p><h3>Water and Chemical Efficiency</h3><p>Modern scrubbers precisely control water and chemical usage, reducing waste by up to 30% compared to manual dilution.</p><h3>Battery Technology Drives Savings</h3><p>Lithium-ion batteries eliminate the need for distilled water top-ups, equalization charges, and battery room ventilation. With fast-charging support, lithium batteries can be opportunity-charged during breaks.</p><h3>Reducing Equipment Downtime</h3><p>Brushless motors, standard on BIOCCE machines, eliminate brush and commutator wear, significantly reducing maintenance intervals.</p><p><a href=\"/contact.html\">Contact us</a> to calculate your potential savings.</p>"},{"id":"choosing-floor-scrubber","title":"How to Choose the Right Floor Scrubber for Your Warehouse or Factory","date":"2026-05-05","category":"Buying Guide","summary":"Selecting the right floor scrubber involves matching machine specifications to your facility requirements.","image":"/images/products/bc1250-main.png","content":"<p>Whether you operate a 5,000 m&sup2; warehouse or a 50,000 m&sup2; manufacturing plant, choosing the right floor scrubber directly impacts cleaning quality and operational costs.</p><h3>Step 1: Measure Your Space</h3><ul><li>Under 5,000 m&sup2; 鈥?Walk-behind scrubber (BC500)</li><li>5,000鈥?5,000 m&sup2; 鈥?Small ride-on (BC600)</li><li>15,000鈥?0,000 m&sup2; 鈥?Mid-size ride-on (BC1000)</li><li>Over 30,000 m&sup2; 鈥?Large ride-on (BC1250)</li></ul><h3>Step 2: Consider Aisle Width</h3><p>The BC600 features a 1-meter turning radius, ideal for warehouse environments with tight rack spacing.</p><h3>Step 3: Evaluate Floor Conditions</h3><p>Different floor types require different brush configurations. All BIOCCE models offer interchangeable brush options.</p><h3>Step 4: Factor in Operating Hours</h3><p>For facilities requiring multi-shift cleaning, lithium battery technology enables opportunity charging.</p><p><a href=\"/contact.html\">Contact us</a> for a personalized recommendation.</p>"}];
+        const PER_PAGE = 5;
+
+        (function() {
+            const params = new URLSearchParams(window.location.search);
+            const articleId = params.get('id');
+            const page = parseInt(params.get('page')) || 1;
+            const listView = document.getElementById('news-list-view');
+            const articleView = document.getElementById('news-article-view');
+            const listContainer = document.getElementById('news-list-container');
+            const pagiContainer = document.getElementById('pagination-container');
+
+            // Handle single article view
+            if (articleId) {
+                const article = ALL_ARTICLES.find(a => a.id === articleId);
+                if (article) {
+                    document.title = article.title + ' - BIOCCE News';
+                    const container = document.getElementById('article-content');
+                    container.innerHTML += '<div class="article-header"><h1>' + article.title + '</h1><div class="article-meta">' + article.date + ' &mdash; ' + article.category + '</div></div><div class="article-body">' + article.content + '</div>';
+                    listView.style.display = 'none';
+                    articleView.style.display = 'block';
+                    return;
+                }
+            }
+
+            // Handle pagination
+            function renderPage(p) {
+                const start = (p - 1) * PER_PAGE;
+                const end = Math.min(start + PER_PAGE, ALL_ARTICLES.length);
+                const pageItems = ALL_ARTICLES.slice(start, end);
+                const totalPages = Math.ceil(ALL_ARTICLES.length / PER_PAGE);
+
+                listContainer.innerHTML = pageItems.map(function(a) {
+                    return '<div class="news-card">' +
+                        '<div class="news-card-image"><img src="' + a.image + '" alt="' + a.title + '" loading="lazy"></div>' +
+                        '<div class="news-card-body">' +
+                        '<div class="news-card-category">' + a.category + '</div>' +
+                        '<h3 class="news-card-title">' + a.title + '</h3>' +
+                        '<div class="news-card-date">' + a.date + '</div>' +
+                        '<p class="news-card-summary">' + a.summary + '</p>' +
+                        '<a href="/news.html?id=' + a.id + '" class="news-card-link">Read More &rarr;</a>' +
+                        '</div></div>';
+                }).join('');
+
+                // Pagination
+                if (totalPages <= 1) { pagiContainer.innerHTML = ''; return; }
+                let pagHtml = '<div class="pagination">';
+                for (var i = 1; i <= totalPages; i++) {
+                    if (i === p) {
+                        pagHtml += '<span class="page-num active">' + i + '</span>';
+                    } else {
+                        pagHtml += '<a href="/news.html?page=' + i + '" class="page-num">' + i + '</a>';
+                    }
+                }
+                pagHtml += '</div>';
+                pagiContainer.innerHTML = pagHtml;
+            }
+
+            if (page > 1 && listView.style.display !== 'none') {
+                renderPage(page);
+            }
+        })();
+    </script>
+
+<!-- WhatsApp Float Button -->
+<a href="https://wa.me/8618621559605" target="_blank" rel="noopener" 
+   style="position:fixed;bottom:24px;right:24px;z-index:9999;width:56px;height:56px;
+          background:#25D366;border-radius:50%;box-shadow:0 4px 12px rgba(0,0,0,.25);
+          display:flex;align-items:center;justify-content:center;transition:transform .2s"
+   onmouseover="this.style.transform='scale(1.1)'" 
+   onmouseout="this.style.transform='scale(1)'"
+   aria-label="Contact us on WhatsApp">
+  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+</a>
+
+</body>
+</html>

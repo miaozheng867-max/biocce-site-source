@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garden Equipment - BIOCCE</title>
+    <meta name="description" content="Professional garden equipment: brush cutters, leaf blowers, and hedge trimmers.">
+    <link rel="canonical" href="https://www.biocce.com/products/garden-equipment/">
+    <link rel="alternate" hreflang="en" href="https://www.biocce.com/products/garden-equipment/">
+    <link rel="alternate" hreflang="zh" href="https://www.biocce.com/zh/products/garden-equipment/">
+    <link rel="alternate" hreflang="ru" href="https://www.biocce.com/ru/products/garden-equipment/">
+    <link rel="dns-prefetch" href="https://api.github.com">
+<link rel="preconnect" href="https://api.github.com">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="logo">
+                <div class="logo-icon">BC</div>
+                <div class="logo-text">
+                    <div class="logo-main">BIO<span class="accent">CCE</span></div>
+                    <div class="logo-sub">Industrial Equipment Solutions</div>
+                </div>
+            </a>
+            <div class="header-actions">
+                                <nav class="nav">
+                    <a href="/" class="active">Home</a>
+                <div class="dropdown">
+                    <span class="dropdown-toggle">Products</span>
+                    <div class="dropdown-menu">
+                        <a href="/products/clean-equipment/">Cleaning Equipment</a>
+                        <a href="/products/material-handling/">Material Handling</a>
+                        <a href="/products/lifting-equipment/">Lifting Equipment</a>
+                        <a href="/products/garden-equipment/">Garden Equipment</a>
+                        <a href="/products/aerial-equipment/">Aerial Equipment</a>
+                        <a href="/products/other-industrial/">Other Industrial</a>
+                    </div>
+                </div>
+                <a href="/about.html">About Us</a>
+                <a href="/news.html">News</a>
+                <a href="/contact.html">Contact</a>
+            </nav>
+                  <div id="search-results"></div>
+                </div>                <button class="nav-toggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+                </div>
+    </header>
+
+    <div class="container breadcrumb">
+        <a href="../../index.html" data-i18n="Home">Home</a><span>閳?/span>
+        <a href="../../index.html#categories" data-i18n="Products">Products</a><span>閳?/span>
+        Garden Equipment
+    </div>
+
+    <section class="section" style="padding-top: 0;">
+        <div class="container" id="category-page">
+            <!-- Populated by JS -->
+        </div>
+    </section>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>BIOCCE</h4>
+                    <p data-i18n="Biocce Supply Chain (Shanghai) Co., Ltd.">Your reliable partner in industrial equipment solutions.<br>Biocce Supply Chain (Shanghai) Co., Ltd.</p>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="Products">Products</h4>
+                    <a href="../../products/clean-equipment/" data-i18n="Cleaning Equipment">Cleaning Equipment</a>
+                    <a href="../../products/material-handling/" data-i18n="Material Handling">Material Handling</a>
+                    <a href="../../products/lifting-equipment/" data-i18n="Lifting Equipment">Lifting Equipment</a>
+                    <a href="../../products/garden-equipment/" data-i18n="Garden Equipment">Garden Equipment</a>
+                    <a href="../../products/aerial-equipment/" data-i18n="Aerial Equipment">Aerial Equipment</a>
+                    <a href="../../products/other-industrial/" data-i18n="Other Industrial">Other Industrial</a>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="About Us">About</h4>
+                    <a href="../../about.html" data-i18n="About">About Us</a>
+                    <a href="../../news.html" data-i18n="News">News</a>
+                    <a href="../../contact.html" data-i18n="Contact">Contact</a>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="Contact">Contact</h4>
+                    <p data-i18n="Shanghai, China">棣冩惙 Shanghai, China</p>
+                    <p>棣冩憻 <a href="mailto:michael@biocce.com">michael@biocce.com</a></p>
+                    <p>棣冩憮 +86 021 51078500</p>
+                    <p>棣冩尠 WhatsApp: +86 18621559605</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 BIOCCE (閹锋粏灏?. <span data-i18n="All rights reserved.">All rights reserved.</span> | <span data-i18n="Biocce Supply Chain (Shanghai) Co., Ltd.">Biocce Supply Chain (Shanghai) Co., Ltd.</span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="../../js/site.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var container = document.getElementById('category-page');
+        if (!container || typeof getProductsByCategory === 'undefined') return;
+
+        var catId = 'garden-equipment';
+        var catInfo = CATEGORIES.find(function© { return c.id === catId; });
+        var products = getProductsByCategory(catId);
+
+        var groups = {};
+        products.forEach(function(p) {
+            if (!groups[p.subcat]) groups[p.subcat] = [];
+            groups[p.subcat].push(p);
+        });
+
+        var html = '<h1 class="section-title" style="text-align: left; margin-bottom: 8px;">' + catInfo.icon + ' ' + catInfo.name + '</h1>' +
+            '<p style="color: var(--text-gray); margin-bottom: 40px; max-width: 800px;">Professional garden equipment: brush cutters, leaf blowers, and hedge trimmers.</p>';
+
+        Object.keys(groups).forEach(function(subcat) {
+            var items = groups[subcat];
+            html += '<h2 style="font-size: 1.15rem; font-weight: 700; color: var(--primary); margin-bottom: 16px; padding-bottom: 6px; border-bottom: 2px solid var(--accent);">' + subcat + '</h2>' +
+                '<div class="product-grid" style="margin-bottom: 36px;">';
+            items.forEach(function(p) {
+                html += '<div class="product-card"><a href="' + p.url + '">' +
+                    '<div class="card-img"><img loading="lazy" src="../../images/placeholder-product.jpg" alt="' + p.name + '" loading="lazy"></div>' +
+                    '<div class="card-body"><h3>' + p.name + '</h3>' +
+                    '<div class="model">Model: ' + p.model + '</div>' +
+                    '<p>' + p.desc + '</p>' +
+                    '<span class="btn-link" data-i18n="View Details">View Details 閳?/span></div></a></div>';
+            });
+            html += '</div>';
+        });
+
+        html += '<section class="section bg-light" style="padding: 30px; border-radius: 8px; margin-top: 20px;">' +
+            '<h2 class="section-title" style="margin-bottom: 16px;" data-i18n="Inquire About This Product">Inquire About ' + catInfo.title + '</h2>' +
+            '<div style="max-width: 650px; margin: 0 auto;">' +
+            '<form class="inquiry-form" action="https://formspree.io/f/xqapbqow" method="POST">' +
+            '<input type="hidden" name="_subject" value="Garden Equipment Inquiry - biocce.com">' +
+            '<input type="hidden" name="_captcha" value="false">' +
+            '<div class="form-row">' +
+            '<input type="text" name="Company Name" data-i18n-placeholder="Company Name *" placeholder="Company Name *" required>' +
+            '<input type="text" name="Contact Person" data-i18n-placeholder="Contact Person *" placeholder="Contact Person *" required></div>' +
+            '<div class="form-row">' +
+            '<input type="email" name="Email" data-i18n-placeholder="Email Address *" placeholder="Email Address *" required>' +
+            '<input type="tel" name="Phone" data-i18n-placeholder="Phone Number *" placeholder="Phone Number *" required></div>' +
+            '<div class="form-row">' +
+            '<input type="text" name="WhatsApp" placeholder="WhatsApp">' +
+            '<input type="text" name="WeChat" placeholder="WeChat"></div>' +
+            '<input type="text" name="Product Interest" value="Garden Equipment" readonly>' +
+            '<div class="form-row">' +
+            '<input type="number" name="Quantity" data-i18n-placeholder="Planned Purchase Quantity" placeholder="Planned Purchase Quantity">' +
+            '<input type="text" name="Shipping Address" data-i18n-placeholder="Shipping / Delivery Address" placeholder="Shipping / Delivery Address"></div>' +
+            '<textarea name="Message" data-i18n-placeholder="Your Message *" placeholder="Your Message *" required></textarea>' +
+            '<button type="submit" class="btn-submit" data-i18n="Send Inquiry">Send Inquiry 閳?/button>' +
+            '</form></div></section>';
+
+        container.innerHTML = html;
+    });
+    </script>
+</body>
+</html>

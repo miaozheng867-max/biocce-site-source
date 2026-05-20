@@ -1,0 +1,229 @@
+[
+    {
+        "id": "bc500",
+        "name": "Lithium Battery Walk-Behind Floor Scrubber",
+        "model": "BC500",
+        "price": null,
+        "bigCategory": "Cleaning Equipment",
+        "category": "Floor Scrubber",
+        "dateAdded": "2026-05-07",
+        "description": "The BC500 effortlessly cleans an area of up to 10,000 m², achieving streak-free floor cleaning through integrated scrubbing, washing and vacuuming. It offers dual battery options (lithium-ion & lead-acid), ensuring worry-free operation in various working environments.\n\nKey Features:\n1. Standard lithium battery - stable performance, long runtime\n2. Large-capacity tanks - reduce frequent refills for non-stop cleaning\n3. Compact body - can flexibly turn and maneuver in narrow spaces\n4. Large brush deck paired with curved squeegee - cleaning efficiency up to 2350 m²/h\n5. Ergonomic handle - enables effortless pushing and comfortable operation\n6. Rotomolded body - rugged structure, precision leak-proof design and superior durability",
+        "images": [
+            "/images/products/bc500-main.jpg",
+            "/images/products/bc500-specs.jpg"
+        ],
+        "featured": true,
+        "specs": [
+            {
+                "label": "Battery",
+                "value": "24V/100Ah (Lithium)"
+            },
+            {
+                "label": "Brush Motor",
+                "value": "24V/400W"
+            },
+            {
+                "label": "Vacuum Motor",
+                "value": "24V/550W"
+            },
+            {
+                "label": "Cleaning Width",
+                "value": "500mm"
+            },
+            {
+                "label": "Squeegee Width",
+                "value": "800mm"
+            },
+            {
+                "label": "Productivity",
+                "value": "2000m2/h"
+            },
+            {
+                "label": "Solution Tank",
+                "value": "55L"
+            },
+            {
+                "label": "Recovery Tank",
+                "value": "60L"
+            },
+            {
+                "label": "Machine Weight",
+                "value": "160kg"
+            }
+        ]
+    },
+    {
+        "id": "bc600",
+        "name": "Lithium Ride-on Floor Scrubber BC600",
+        "model": "BC600",
+        "bigCategory": "Cleaning Equipment",
+        "category": "Ride-on Floor Scrubber",
+        "dateAdded": "2026-05-08",
+        "images": [
+            "/images/products/bc600-main.png",
+            "/images/products/bc600-angle.png",
+            "/images/products/bc600-operate.jpg",
+            "/images/products/bc600-side.jpg",
+            "/images/products/bc600-specs.jpg"
+        ],
+        "description": "The BC600 is an economical choice among small ride-on floor scrubbers, featuring powerful cleaning performance and a compact, flexible design. It integrates scrubbing, washing and waxing functions into one machine, capable of completing multi-floor cleaning tasks while freeing up significant labor.\n\nKey Features:\n1. Standard lithium battery - stable performance, long runtime\n2. Permanent magnet brushless hub motor for strong cleaning power; all-copper AC motor with overheat protection; quiet ball bearings for reduced noise\n3. Front-wheel drive, flexible steering with a turning radius of only 1m\n4. 21-inch brush deck with curved squeegee - cleaning efficiency up to 3360 m²/h\n5. Lifting handle for semi-automatic brush loading/unloading for safety",
+        "specs": [
+            {
+                "label": "Scrubbing Width",
+                "value": "530mm (21\")"
+            },
+            {
+                "label": "Squeegee Width",
+                "value": "760mm (30\")"
+            },
+            {
+                "label": "Scrubbing Capacity",
+                "value": "3360 m²/h"
+            },
+            {
+                "label": "Solution Tank",
+                "value": "55L"
+            },
+            {
+                "label": "Recovery Tank",
+                "value": "58L"
+            },
+            {
+                "label": "Brush Motor",
+                "value": "500W"
+            },
+            {
+                "label": "Vacuum Motor",
+                "value": "400W × 2"
+            },
+            {
+                "label": "Drive Motor",
+                "value": "350W (PMSM Hub)"
+            },
+            {
+                "label": "Battery",
+                "value": "100Ah Lithium-ion"
+            },
+            {
+                "label": "Brush Pressure",
+                "value": "30-60 kg"
+            }
+        ]
+    },
+    {
+        "id": "bc1000",
+        "name": "Lithium Ride-on Floor Scrubber BC1000",
+        "model": "BC1000",
+        "bigCategory": "Cleaning Equipment",
+        "category": "Ride-on Floor Scrubber",
+        "dateAdded": "2026-05-08",
+        "images": [
+            "/images/products/bc1000-main.png",
+            "/images/products/bc1000-specs-en.jpg"
+        ],
+        "description": "Equipped with a standard lithium battery and permanent magnet brushless motor, the BC1000 delivers strong endurance and stable output performance. Large-capacity solution and recovery tanks eliminate the need for frequent refills. Incorporating automotive-grade design principles, it offers a comfortable driving experience for more efficient cleaning.\n\nKey Features:\n1. 19\" dual brush deck with a scrubbing width up to 1000mm for upgraded efficiency\n2. Auto brush loading/unloading - one-button operation, smart and safe\n3. Compact structure fits standard elevators for multi-floor operation\n4. Ergonomic wrap-around seat with automotive-grade comfort for prolonged use\n5. Dual scrub brushes + curved squeegee - working efficiency up to 6000 m²/h, saving significant labor costs",
+        "specs": [
+            {
+                "label": "Scrubbing Width",
+                "value": "1000mm (19\" × 2)"
+            },
+            {
+                "label": "Squeegee Width",
+                "value": "1200mm (47\")"
+            },
+            {
+                "label": "Scrubbing Capacity",
+                "value": "6000 m²/h"
+            },
+            {
+                "label": "Solution Tank",
+                "value": "80L"
+            },
+            {
+                "label": "Recovery Tank",
+                "value": "85L"
+            },
+            {
+                "label": "Brush Motor",
+                "value": "500W × 2"
+            },
+            {
+                "label": "Vacuum Motor",
+                "value": "450W × 2"
+            },
+            {
+                "label": "Drive Motor",
+                "value": "PMSM"
+            },
+            {
+                "label": "Battery",
+                "value": "100Ah Lithium-ion"
+            },
+            {
+                "label": "Machine Weight",
+                "value": "420 kg"
+            }
+        ]
+    },
+    {
+        "id": "bc1250",
+        "name": "Lithium Ride-on Floor Scrubber BC1250",
+        "model": "BC1250",
+        "bigCategory": "Cleaning Equipment",
+        "category": "Ride-on Floor Scrubber",
+        "dateAdded": "2026-05-08",
+        "images": [
+            "/images/products/bc1250-main.png",
+            "/images/products/bc1250-specs-en.png",
+            "/images/products/bc1250-specs-en2.png",
+            "/images/products/bc1250-specs-ru.png"
+        ],
+        "description": "The BC1250 is a new-generation professional ride-on floor scrubber, offering the latest cleaning technology. With a high-capacity battery for extended runtime, it integrates scrubbing, washing and vacuuming in one pass. Designed for heavy-duty workloads, it delivers excellent value for money.\n\nKey Features:\n1. Powerful motor with 21\" dual brush deck - saves time and labor\n2. Energy-efficient with long battery life - up to 35,000 m² per charge\n3. PMSM hub motor reduces weight by over 35% compared to similar products; dual rear-wheel silent drive with strong power\n4. Full 360° anti-collision design, low center of gravity for stable and safe operation\n5. Dual scrub brushes + curved squeegee - working efficiency up to 6600 m²/h",
+        "specs": [
+            {
+                "label": "Scrubbing Width",
+                "value": "1066mm (21\" × 2)"
+            },
+            {
+                "label": "Squeegee Width",
+                "value": "1280mm (50\")"
+            },
+            {
+                "label": "Scrubbing Capacity",
+                "value": "6600 m²/h"
+            },
+            {
+                "label": "Solution Tank",
+                "value": "105L"
+            },
+            {
+                "label": "Recovery Tank",
+                "value": "115L"
+            },
+            {
+                "label": "Brush Motor",
+                "value": "600W × 2"
+            },
+            {
+                "label": "Vacuum Motor",
+                "value": "500W × 2"
+            },
+            {
+                "label": "Drive Motor",
+                "value": "PMSM (Dual Rear)"
+            },
+            {
+                "label": "Battery",
+                "value": "150Ah Lithium-ion"
+            },
+            {
+                "label": "Machine Weight",
+                "value": "550 kg"
+            },
+            {
+                "label": "Dimensions",
+                "value": "1580 × 830 × 1300 mm"
+            }
+        ]
+    }
+]
