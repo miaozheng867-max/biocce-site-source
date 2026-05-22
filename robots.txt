@@ -1,5 +1,2 @@
 User-agent: *
-Allow: /
-Disallow: /admin.html
-
-Sitemap: https://www.biocce.com/sitemap.xml
+Disallow: /
