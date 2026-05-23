@@ -54,7 +54,10 @@
                 </div>
                 <div>
                     <h2 style="font-size:1.2rem;font-weight:700;color:var(--primary);margin-bottom:20px">Quick <span style="color:var(--accent)">Inquiry</span></h2>
-                    <form action="mailto:michael@biocce.com" method="get" enctype="text/plain">
+                    <form action="https://formspree.io/f/xovjqqab" method="POST">
+                        <input type="hidden" name="_to" value="michael@biocce.com">
+                        <input type="hidden" name="_subject" value="New BIOCCE Website Inquiry - Contact Form">
+                        <input type="hidden" name="_cc" value="michael@biocce.com">
                         <div class="form-group">
                             <label>Name *</label>
                             <input type="text" class="form-control" name="name" required placeholder="Your full name">
@@ -99,8 +102,22 @@
                             <label>Custom Requirements / Message *</label>
                             <textarea class="form-control" name="message" required placeholder="Tell us about your requirements..."></textarea>
                         </div>
-                        <button type="submit" class="btn" style="width:100%">Submit Inquiry &rarr;</button>
-                    </form>
+                        <<div id="form-success" style="display:none;padding:20px;background:#e6f7e6;border-radius:6px;text-align:center;color:#2e7d32;font-size:.9rem;margin-bottom:16px">✅ Thank you! Your inquiry has been sent to BIOCCE. We will respond within 24 hours.</div>
+                        button type="submit" id="submit-btn" class="btn" style="width:100%">Submit Inquiry &rarr;</button>
+                    </form>
+                    </form>
+                    <script>
+                    document.querySelector('form').addEventListener('submit', function(e){
+                        var btn = document.getElementById('submit-btn');
+                        if(btn){ btn.disabled = true; btn.textContent = 'Sending...'; }
+                    });
+                    var p = new URLSearchParams(window.location.search);
+                    if(p.get('success')==='true'){
+                        document.getElementById('form-success').style.display = 'block';
+                        var f = document.querySelector('form');
+                        if(f) f.style.display = 'none';
+                    }
+                    </script>
                 </div>
             </div>
         </div>
